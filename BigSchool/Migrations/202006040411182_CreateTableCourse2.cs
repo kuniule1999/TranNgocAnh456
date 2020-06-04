@@ -39,6 +39,8 @@ namespace BigSchool.Migrations
         
         public override void Down()
         {
+
+
             DropForeignKey("dbo.Courses", "Lecturer_Id", "dbo.AspNetUsers");
             DropForeignKey("dbo.Courses", "categoryId", "dbo.Categories");
             DropIndex("dbo.Courses", new[] { "Lecturer_Id" });
