@@ -26,6 +26,8 @@ namespace BigSchool.Migrations
                         DateTime = c.DateTime(nullable: false),
                         categoryId = c.Byte(nullable: false),
                         Lecturer_Id = c.String(maxLength: 128),
+
+
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Categories", t => t.categoryId, cascadeDelete: true)
