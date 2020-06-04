@@ -7,6 +7,7 @@ namespace BigSchool.Migrations
     {
         public override void Up()
         {
+
             CreateTable(
                 "dbo.Categories",
                 c => new
