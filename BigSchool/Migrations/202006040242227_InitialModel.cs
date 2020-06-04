@@ -11,6 +11,7 @@ namespace BigSchool.Migrations
                 "dbo.AspNetRoles",
                 c => new
                     {
+
                         Id = c.String(nullable: false, maxLength: 128),
                         Name = c.String(nullable: false, maxLength: 256),
                     })
