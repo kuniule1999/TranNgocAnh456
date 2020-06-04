@@ -205,10 +205,28 @@
     <Compile Include="Migrations\202006040242227_InitialModel.Designer.cs">
       <DependentUpon>202006040242227_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006040348485_CreateTableCourse.cs" />
+    <Compile Include="Migrations\202006040348485_CreateTableCourse.Designer.cs">
+      <DependentUpon>202006040348485_CreateTableCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006040352594_CreateTableCourse1.cs" />
+    <Compile Include="Migrations\202006040352594_CreateTableCourse1.Designer.cs">
+      <DependentUpon>202006040352594_CreateTableCourse1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006040358541_CreateTableCategories.cs" />
+    <Compile Include="Migrations\202006040358541_CreateTableCategories.Designer.cs">
+      <DependentUpon>202006040358541_CreateTableCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202006040411182_CreateTableCourse2.cs" />
+    <Compile Include="Migrations\202006040411182_CreateTableCourse2.Designer.cs">
+      <DependentUpon>202006040411182_CreateTableCourse2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Coure.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -288,6 +306,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202006040242227_InitialModel.resx">
       <DependentUpon>202006040242227_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006040348485_CreateTableCourse.resx">
+      <DependentUpon>202006040348485_CreateTableCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006040352594_CreateTableCourse1.resx">
+      <DependentUpon>202006040352594_CreateTableCourse1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006040358541_CreateTableCategories.resx">
+      <DependentUpon>202006040358541_CreateTableCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006040411182_CreateTableCourse2.resx">
+      <DependentUpon>202006040411182_CreateTableCourse2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
