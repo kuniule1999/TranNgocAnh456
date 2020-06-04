@@ -19,6 +19,7 @@ namespace BigSchool.Controllers
         private ApplicationUserManager _userManager;
 
         public AccountController()
+
         {
         }
 
